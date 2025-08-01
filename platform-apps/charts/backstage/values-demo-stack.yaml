@@ -41,7 +41,6 @@ backstage:
     extraVolumeMounts:
       - name: rbac-policy
         mountPath: /opt/app-root/src/rbac
-    extraVolumeMounts:
       - name: cacert
         mountPath: /mkcert/cacert
     appConfig:
