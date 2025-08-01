@@ -93,6 +93,7 @@ kubectl apply -f .devcontainer/backstage-nodeport.yaml
 kubectl create namespace keycloak --dry-run=client -o yaml | kubectl apply -f -
 kubectl apply -f .devcontainer/keycloak-nodeport.yaml
 
+mkcert -cert-file dummy-cert.pem -key-file dummy-key.pem dummy.io
 kubectl create secret generic cacert --from-file=ca.crt="$(mkcert -CAROOT)"/rootCA.pem -n backstage
 
 ./install-platform.sh
