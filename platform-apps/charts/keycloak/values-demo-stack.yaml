@@ -1,4 +1,6 @@
 keycloak:
+  logging:
+    level: debug
   #extraEnvVars:
   #  - name: KEYCLOAK_LOG_LEVEL
   #    value: DEBUG
