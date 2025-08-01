@@ -1,6 +1,6 @@
 
 <h3>Target <code>bitnami/kubectl:1.32.3 (debian 12.10)</code></h3>
-<h4>Vulnerabilities (26)</h4>
+<h4>Vulnerabilities (31)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -8,6 +8,41 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>git</code></td>
+        <td>CVE-2025-48384</td>
+        <td>HIGH</td>
+        <td>1:2.39.5-0+deb12u2</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>git</code></td>
+        <td>CVE-2025-48385</td>
+        <td>HIGH</td>
+        <td>1:2.39.5-0+deb12u2</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>git-man</code></td>
+        <td>CVE-2025-48384</td>
+        <td>HIGH</td>
+        <td>1:2.39.5-0+deb12u2</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>git-man</code></td>
+        <td>CVE-2025-48385</td>
+        <td>HIGH</td>
+        <td>1:2.39.5-0+deb12u2</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>jq</code></td>
+        <td>CVE-2025-48060</td>
+        <td>HIGH</td>
+        <td>1.6-2.1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>
@@ -49,6 +84,13 @@
         <td>CVE-2025-5222</td>
         <td>HIGH</td>
         <td>72.1-3</td>
+        <td>72.1-3+deb12u1</td>
+    </tr>
+    <tr>
+        <td><code>libjq1</code></td>
+        <td>CVE-2025-48060</td>
+        <td>HIGH</td>
+        <td>1.6-2.1</td>
         <td></td>
     </tr>
     <tr>
@@ -112,49 +154,42 @@
         <td>CVE-2024-25062</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
         <td>CVE-2024-56171</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
         <td>CVE-2025-24928</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
         <td>CVE-2025-27113</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
         <td>CVE-2025-32414</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
         <td>CVE-2025-32415</td>
         <td>HIGH</td>
         <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49795</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
+        <td>2.9.14+dfsg-1.3~deb12u2</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
@@ -206,15 +241,47 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>opt/bitnami/kubectl/.spdx-kubectl.spdx</code></h3>
-<h4>No Vulnerabilities found</h4>
+<h4>Vulnerabilities (1)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>golang.org/x/oauth2</code></td>
+        <td>CVE-2025-22868</td>
+        <td>HIGH</td>
+        <td>v0.23.0</td>
+        <td>0.27.0</td>
+    </tr>
+</table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>opt/bitnami/kubectl/bin/kubectl</code></h3>
-<h4>No Vulnerabilities found</h4>
+<h4>Vulnerabilities (1)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>golang.org/x/oauth2</code></td>
+        <td>CVE-2025-22868</td>
+        <td>HIGH</td>
+        <td>v0.23.0</td>
+        <td>0.27.0</td>
+    </tr>
+</table>
 <h4>No Misconfigurations found</h4>
 
 <h3>Trivy Returned Empty Report</h3>
 
-<h3>Target <code>reg.kyverno.io/kyverno/background-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/background-controller:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/background-controller</code></h3>
@@ -237,7 +304,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/cleanup-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/cleanup-controller:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/cleanup-controller</code></h3>
@@ -260,7 +327,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyverno-cli:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyverno-cli:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kubectl-kyverno</code></h3>
@@ -283,7 +350,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyverno:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyverno:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno</code></h3>
@@ -306,7 +373,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyvernopre:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyvernopre:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno-init</code></h3>
@@ -329,7 +396,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/reports-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/reports-controller:v1.14.4 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/reports-controller</code></h3>

@@ -1,9 +1,9 @@
 
-<h3>Target <code>quay.io/argoproj/argo-rollouts:v1.8.2 (debian 11.10)</code></h3>
+<h3>Target <code>quay.io/argoproj/argo-rollouts:v1.8.3 (debian 11.10)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>bin/rollouts-controller</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -18,13 +18,6 @@
         <td>HIGH</td>
         <td>v1.3.3</td>
         <td>1.3.7</td>
-    </tr>
-    <tr>
-        <td><code>github.com/golang-jwt/jwt/v4</code></td>
-        <td>CVE-2025-30204</td>
-        <td>HIGH</td>
-        <td>v4.5.0</td>
-        <td>4.5.2</td>
     </tr>
     <tr>
         <td><code>github.com/whilp/git-urls</code></td>
