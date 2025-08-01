@@ -1,4 +1,7 @@
-clusterType: k8s # supported: k8s, kind
-dnsProvider: ionos # supported: aws, ionos, stackit 
-domain: demo.kubrix.cloud
-# HA: true|false (only supported with kubriX prime)
+clusterType: kind
+valuesFile: demo-stack
+dnsProvider: none
+domain: 127-0-0-1.nip.io
+gitRepo: https://github.com/kubriX-demo/kubrix-demo-johnny-kind
+gitRepoOrg: kubriX-demo
+gitRepoName: kubrix-demo-johnny-kind
