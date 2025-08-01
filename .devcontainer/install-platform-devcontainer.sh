@@ -96,6 +96,7 @@ kubectl apply -f .devcontainer/keycloak-nodeport.yaml
 mkcert -cert-file dummy-cert.pem -key-file dummy-key.pem dummy.io
 kubectl create secret generic cacert --from-file=ca.crt="$(mkcert -CAROOT)"/rootCA.pem -n backstage
 
+export KUBRIX_BOOTSTRAP_MAX_WAIT_TIME=2400
 ./install-platform.sh
 
 if [[ ${KUBRIX_TARGET_TYPE} == "KIND-DELIVERY" ]] ; then
