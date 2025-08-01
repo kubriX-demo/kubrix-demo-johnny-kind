@@ -544,9 +544,9 @@ if [[ $( echo $argocd_apps | grep sx-backstage ) ]] ; then
 
   # in codespaces we need additional crossplane resources for keycloak
   # because of the port-forwarding URLs
-  if [ ${KEYCLOAK_CODESPACES} ]; then
-    cat .devcontainer/keycloak-codespaces.yaml | sed "s/BACKSTAGE_CODESPACES_REPLACE/${CODESPACE_NAME}-6691.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}/g" | sed "s/KEYCLOAK_CODESPACES_REPLACE/${CODESPACE_NAME}-6692.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}/g" | kubectl apply -n keycloak -f -
-  fi
+  # if [ ${KEYCLOAK_CODESPACES} ]; then
+  #  cat .devcontainer/keycloak-codespaces.yaml | sed "s/BACKSTAGE_CODESPACES_REPLACE/${CODESPACE_NAME}-6691.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}/g" | sed "s/KEYCLOAK_CODESPACES_REPLACE/${CODESPACE_NAME}-6692.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}/g" | kubectl apply -n keycloak -f -
+  # fi
 
   # finally wait for all apps including backstage to be synced and health
   wait_until_apps_synced_healthy "${argocd_apps}" "Synced" "Healthy" 300
