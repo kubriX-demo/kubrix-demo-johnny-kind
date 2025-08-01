@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/grafana-agent-operator</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (3)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -26,30 +26,21 @@
         <td>v0.31.0</td>
         <td>0.35.0</td>
     </tr>
+    <tr>
+        <td><code>golang.org/x/oauth2</code></td>
+        <td>CVE-2025-22868</td>
+        <td>HIGH</td>
+        <td>v0.21.0</td>
+        <td>0.27.0</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>docker.io/grafana/loki-canary:3.5.0 (debian 12.10)</code></h3>
+<h3>Target <code>docker.io/grafana/loki-canary:3.5.2 (debian 12.11)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/loki-canary</code></h3>
-<h4>Vulnerabilities (1)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-22874</td>
-        <td>HIGH</td>
-        <td>v1.24.2</td>
-        <td>1.24.4</td>
-    </tr>
-</table>
+<h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/grafana/loki-helm-test:ewelch-distributed-helm-chart-17db5ee (alpine 3.18.5)</code></h3>
@@ -119,37 +110,21 @@
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>docker.io/grafana/loki:3.5.0 (debian 12.10)</code></h3>
+<h3>Target <code>docker.io/grafana/loki:3.5.2 (debian 12.11)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/loki</code></h3>
-<h4>Vulnerabilities (1)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-22874</td>
-        <td>HIGH</td>
-        <td>v1.24.2</td>
-        <td>1.24.4</td>
-    </tr>
-</table>
+<h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
 <h3>Trivy Returned Empty Report</h3>
 
-<h3>Target <code>docker.io/nginxinc/nginx-unprivileged:1.28-alpine (alpine 3.21.3)</code></h3>
+<h3>Target <code>docker.io/nginxinc/nginx-unprivileged:1.29-alpine (alpine 3.22.1)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>kiwigrid/k8s-sidecar:1.30.3 (alpine 3.21.3)</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h3>Target <code>kiwigrid/k8s-sidecar:1.30.7 (alpine 3.22.0)</code></h3>
+<h4>Vulnerabilities (1)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -160,41 +135,18 @@
     </tr>
     <tr>
         <td><code>sqlite-libs</code></td>
-        <td>CVE-2025-29087</td>
-        <td>HIGH</td>
-        <td>3.48.0-r0</td>
-        <td>3.48.0-r1</td>
-    </tr>
-    <tr>
-        <td><code>xz-libs</code></td>
-        <td>CVE-2025-31115</td>
-        <td>HIGH</td>
-        <td>5.6.3-r0</td>
-        <td>5.6.3-r1</td>
+        <td>CVE-2025-6965</td>
+        <td>CRITICAL</td>
+        <td>3.49.2-r0</td>
+        <td>3.49.2-r1</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (1)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>setuptools</code></td>
-        <td>CVE-2025-47273</td>
-        <td>HIGH</td>
-        <td>78.1.0</td>
-        <td>78.1.1</td>
-    </tr>
-</table>
+<h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>memcached:1.6.38-alpine (alpine 3.22.0)</code></h3>
+<h3>Target <code>memcached:1.6.38-alpine (alpine 3.22.1)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
@@ -212,7 +164,7 @@
         <td><code>stdlib</code></td>
         <td>CVE-2025-22874</td>
         <td>HIGH</td>
-        <td>v1.24.1</td>
+        <td>v1.24.3</td>
         <td>1.24.4</td>
     </tr>
 </table>
@@ -292,7 +244,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/minio</code></h3>
-<h4>Vulnerabilities (3)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -321,6 +273,13 @@
         <td>HIGH</td>
         <td>v0.31.0</td>
         <td>0.35.0</td>
+    </tr>
+    <tr>
+        <td><code>golang.org/x/oauth2</code></td>
+        <td>CVE-2025-22868</td>
+        <td>HIGH</td>
+        <td>v0.24.0</td>
+        <td>0.27.0</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
